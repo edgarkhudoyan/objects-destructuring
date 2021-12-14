@@ -3,3 +3,11 @@ needs, 30% after tax income on wants, and 20% after-tax income on savings or pay
 Given the after-tax income as ati, what you are supposed to do is to make a function that will return an
 object that shows how much a person needs to spend on needs, wants, and savings. */
 'use strict';
+
+let sum = 50;
+
+let strategy = {
+  Needs: sum / 2,
+  Wants: sum / 3.3,
+  Savings: sum / 5,
+};
