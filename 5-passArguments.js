@@ -5,4 +5,7 @@ function sum(x, y, z) {
 }
 
 const numbers = [1, 2, 3];
-console.log(sum()); // prints 6
+
+let [x, y, z] = numbers;
+
+console.log(sum(x, y, z)); // prints 6
