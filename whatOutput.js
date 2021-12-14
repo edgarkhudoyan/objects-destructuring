@@ -4,3 +4,5 @@
 // let name, country, job;
 // const { name, country, job } = person;
 // console.log(name);
+
+// ANSWER: The variable name has already been declared.
