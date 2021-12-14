@@ -7,11 +7,13 @@ object that shows how much a person needs to spend on needs, wants, and savings.
 // let sum = 50;
 
 function fiftyThirtyTwenty(sum) {
-  let strategy = {
+  const strategy = {
     Needs: sum / 2,
-    Wants: sum / 3.3,
+    Wants: Math.floor(sum / 3.3),
     Savings: sum / 5,
   };
 
-  console.log(strategy.Needs);
+  return strategy;
 }
+
+fiftyThirtyTwenty(50000);
