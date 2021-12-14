@@ -4,10 +4,14 @@ Given the after-tax income as ati, what you are supposed to do is to make a func
 object that shows how much a person needs to spend on needs, wants, and savings. */
 'use strict';
 
-let sum = 50;
+// let sum = 50;
 
-let strategy = {
-  Needs: sum / 2,
-  Wants: sum / 3.3,
-  Savings: sum / 5,
-};
+function fiftyThirtyTwenty(sum) {
+  let strategy = {
+    Needs: sum / 2,
+    Wants: sum / 3.3,
+    Savings: sum / 5,
+  };
+
+  console.log(strategy.Needs);
+}
