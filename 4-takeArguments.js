@@ -1,7 +1,6 @@
 // How to take arguments in sum function?
 'use strict';
-
-function sum(args) {
+function sum() {
   return args.reduce((sum, current) => {
     return sum + current;
   });
