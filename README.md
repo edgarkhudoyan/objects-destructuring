@@ -35,3 +35,7 @@
     > [Solution Link](https://github.com/edgarkhudoyan/objects-destructuring/blob/main/10-oneLiner.js)
 11. > The string should have the following format: X has a population of Y and is situated in Z (where X is the city name, Y is the population and Z is the continent the city is situated in).
     > [Solution Link](https://github.com/edgarkhudoyan/objects-destructuring/blob/main/11-cityFacts.js)
+12. > Create a function that takes infinite count of elements, operator and prints their sum. If there's no operator, then default should be +
+    > [Solution Link](https://github.com/edgarkhudoyan/objects-destructuring/blob/main/12-printSum.js)
+13. > Write object.keys, object.values and object.entries methods using for..in
+    > [Solution Link](https://github.com/edgarkhudoyan/objects-destructuring/blob/main/13-methods.js)
