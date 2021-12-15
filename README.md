@@ -33,3 +33,5 @@
    > [Solution Link](https://github.com/edgarkhudoyan/objects-destructuring/blob/main/9-fiftyThirtyTwenty.js)
 10. > Create a function that takes an object as an argument and returns a string with facts about the city. The city facts will need to be extracted from the object's three properties:
     > [Solution Link](https://github.com/edgarkhudoyan/objects-destructuring/blob/main/10-oneLiner.js)
+11. > The string should have the following format: X has a population of Y and is situated in Z (where X is the city name, Y is the population and Z is the continent the city is situated in).
+    > [Solution Link](https://github.com/edgarkhudoyan/objects-destructuring/blob/main/11-cityFacts.js)
