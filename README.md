@@ -9,6 +9,10 @@
   - getUsingDestructurizing.js
   - upvotesDownvotes.js
   - fiftyThirtyTwenty.js
+  - oneLiner.js
+  - cityFacts.js
+  - printSum.js
+  - methods.js
 
 1. > Get name, country and jod using destructuring
    > [Solution Link](https://github.com/edgarkhudoyan/objects-destructuring/blob/main/1-getNameCountryJob.js)
