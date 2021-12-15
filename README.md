@@ -31,3 +31,5 @@
    > Given the after-tax income as ati, what you are supposed to do is to make a function that will return an
    > object that shows how much a person needs to spend on needs, wants, and savings.
    > [Solution Link](https://github.com/edgarkhudoyan/objects-destructuring/blob/main/9-fiftyThirtyTwenty.js)
+10. > Create a function that takes an object as an argument and returns a string with facts about the city. The city facts will need to be extracted from the object's three properties:
+    > [Solution Link](https://github.com/edgarkhudoyan/objects-destructuring/blob/main/10-oneLiner.js)
