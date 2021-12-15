@@ -8,7 +8,7 @@ let city = {
 };
 
 function showCityDetails(obj) {
-  return Object.values(obj);
+  return Object.values(obj).toString();
 }
 
 console.log(showCityDetails(city));
