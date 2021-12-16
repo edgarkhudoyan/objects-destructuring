@@ -7,8 +7,6 @@ let city = {
   continent: 'Asia',
 };
 
-function showCityDetails(obj) {
-  return Object.values(obj).toString();
-}
+const showCityDetails = (obj) => Object.values(obj).toString();
 
 console.log(showCityDetails(city));
