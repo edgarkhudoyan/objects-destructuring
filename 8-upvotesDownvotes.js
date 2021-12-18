@@ -1,12 +1,17 @@
 // Given an object containing counts of both upvotes and downvotes, return what vote count should be displayed. This is calculated by subtracting the number of downvotes from upvotes.
 'use strict';
-function getVoteCount(obj) {
-  let obj1 = {
-    upvotes: obj.upvotes,
-    downvotes: obj.downvotes,
-  };
+let obj1 = {
+  upvotes: undefined,
+  downvotes: undefined,
+};
 
-  return obj1.upvotes - obj1.downvotes;
+let { upvotes, downvotes } = obj1;
+
+function getVoteCount(obj) {
+  upvotes = obj.upvotes;
+  downvotes = obj.downvotes;
+
+  return upvotes - downvotes;
 }
 
 getVoteCount({ upvotes: 13, downvotes: 0 }); // ➞ 13
